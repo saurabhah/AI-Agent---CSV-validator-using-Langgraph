@@ -11,7 +11,12 @@
 
 
 ### Ollama Commands Used in Localhost ###
-> pip install langchain-ollama
+```
+> pip install langchain-ollama 
 > ollama pull qwen3:8b
+```
 
-### Langchai Commands Used in Localhost ###
+### Langchain Commands Used in Localhost ###
+```
+> pip install langchain
+```
