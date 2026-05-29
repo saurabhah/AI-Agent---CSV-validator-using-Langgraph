@@ -1,0 +1,2 @@
+employee_id,first_name,last_name,email,phone,designation,date_of_joining,location,status
+1,Aarav,Sharma,aarav.sharma@company.com,-655,Senior Software Engineer,2021-03-15,Mumbai,TRUE
