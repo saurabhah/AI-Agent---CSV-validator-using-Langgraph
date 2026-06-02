@@ -13,13 +13,14 @@ def load_csv_node(state):
 
 
 def schema_node(state):
+    """Node to fetch the database schema for a given table and store it in the state."""
     schema = get_schema(state["db_table"])
     state["db_schema"] = schema
     return state
 
 
 def validation_node(state):
-
+    """Node to validate CSV rows against the database schema using an LLM."""
     errors = []
     print("Validating rows...")
     schema = state["db_schema"]
