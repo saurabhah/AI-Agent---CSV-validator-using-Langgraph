@@ -33,3 +33,6 @@ graph TD;
 ```
 ## Postgres Schema ##
 ![postgresSchema](agent/img/dbschema.png)
+
+## Results ##
+![CSV Validation ](agent/img/Result.PNG)
