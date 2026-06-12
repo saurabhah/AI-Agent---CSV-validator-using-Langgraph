@@ -1,0 +1,4 @@
+employee_id,first_name,last_name,email,phone,designation,date_of_joining,location,status
+EMP001,Arnav,Joshi,aarav.joshi@company.com,-655,Senior Software Engineer,2021-03-15,Mumbai,TRUE
+EMP002,Emily,Johnson,emily.johnson@company.com,-656,HR Manager,2019-07-10,Chicago,TRUE
+EMP003,Sophia,Mehta,sophia.mehta@company.com,-657,Frontend Developer,2022-01-20,Remote,TRUE

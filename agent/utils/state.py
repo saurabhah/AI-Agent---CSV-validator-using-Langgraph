@@ -8,11 +8,11 @@ import operator
 class ValidationState(TypedDict, total=False):
     file_path: str
     db_table: str
-    csv_rows: list[dict]          # raw rows from file
-    db_schema: dict               # schema fetched from postgres
-    flagged: list[dict]           # rows flagged by the agent with reasons
-    valid: list[dict]             # rows that passed
-    human_decision: Optional[str] # accept / reject per flagged row
+    csv_rows: list[dict]         
+    db_schema: dict               
+    flagged: list[dict]        
+    valid: list[dict]           
+    human_decision: Optional[str]
     report: str
     errors: list[dict]
  

@@ -31,4 +31,5 @@ graph TD;
 ```
 > pip install langchain
 ```
-
+## Postgres Schema ##
+![alt text](image.png)
